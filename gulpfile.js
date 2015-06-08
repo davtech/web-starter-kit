@@ -85,7 +85,7 @@ gulp.task('styles', function () {
   return gulp.src([
     'app/styles/*.scss',
     'app/styles/**/*.css',
-    'app/styles/components/components.scss'
+    // 'app/styles/components/components.scss'
   ])
     .pipe($.changed('styles', {extension: '.scss'}))
     .pipe($.rubySass({
@@ -129,7 +129,7 @@ gulp.task('html', function () {
     .pipe(assets.restore())
     .pipe($.useref())
     // Update Production Style Guide Paths
-    .pipe($.replace('components/components.css', 'components/main.min.css'))
+    // .pipe($.replace('components/components.css', 'components/main.min.css'))
     // Minify Any HTML
     .pipe($.if('*.html', $.minifyHtml()))
     // Output Files
