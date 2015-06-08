@@ -1,14 +1,54 @@
-/*
- * Web Starter Kit
- *
- * Multi-screen layout styles for your page. Brought to you by the
- * Web Starter Kit team.
- *
- */
-@import '_h5bp';
+@charset "UTF-8";
 
 /*
- * Visual Style Guide styles
- * Remove if you prefer to use a CSS library, like Bootstrap
- */
-@import 'components/components';
+Projet: Starter HTML
+Author: Laurent SUTTERLITY - laurent@sutterlity.fr
+Version: 3.1
+Date: January 2015
+*/
+
+@import "bourbon";
+
+// Uncoment ligne 14 for activate debug tools
+//@import "base/_debug.scss";
+
+/*------------------------------------*\
+    == BASE
+\*------------------------------------*/
+
+@import "base/_base.scss" 
+
+/*------------------------------------*\
+    == MODULES
+\*------------------------------------*/
+
+@import "neat/_neat.scss" //grid semantico
+
+// @import "module/_grid";
+// @import "module/_btn";
+// @import "module/_media";
+// @import "module/_message";
+// @import "module/_animation";
+
+/*------------------------------------*\
+    == LAYOUT
+\*------------------------------------*/
+
+// @import "layout/_header";
+// @import "layout/_main";
+// @import "layout/_footer";
+
+/*------------------------------------*\
+    == HELPERS
+\*------------------------------------*/
+
+// @import "helper/_spacing";
+// @import "helper/_text";
+// @import "helper/_radius";
+// @import "helper/_show-hide";
+
+/*------------------------------------*\
+    == MEDIA QUERIES
+\*------------------------------------*/
+
+// @import "_print";
