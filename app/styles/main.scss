@@ -7,7 +7,7 @@ Version: 3.1
 Date: January 2015
 */
 
-@import "bourbon";
+@import "bourbon/bourbon";
 
 // Uncoment ligne 14 for activate debug tools
 //@import "base/_debug.scss";
@@ -16,19 +16,14 @@ Date: January 2015
     == BASE
 \*------------------------------------*/
 
-@import "base/_base.scss" 
+@import "base/_base.scss";
 
 /*------------------------------------*\
     == MODULES
 \*------------------------------------*/
 
-@import "neat/_neat.scss" //grid semantico
+@import "neat/_neat.scss"; //grid semantico
 
-// @import "module/_grid";
-// @import "module/_btn";
-// @import "module/_media";
-// @import "module/_message";
-// @import "module/_animation";
 
 /*------------------------------------*\
     == LAYOUT
