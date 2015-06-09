@@ -7,8 +7,8 @@
     "128": "/images/touch/icon-128x128.png"
   },
   "developer": {
-    "name": "",
-    "url": ""
+    "name": "David Bastos",
+    "url": "www.davidbastos.com.br"
   },
   "installs_allowed_from": [
     "*"
@@ -17,7 +17,7 @@
   "permissions": {
   },
   "locales": {
-    "en": {
+    "pt-BR": {
       "name": "Web Starter Kit",
       "description": "A front-end template that helps you build fast, modern mobile web apps."
     }

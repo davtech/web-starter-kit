@@ -2,36 +2,34 @@
 
 /*
 Projet: Starter HTML
-Author: Laurent SUTTERLITY - laurent@sutterlity.fr
-Version: 3.1
-Date: January 2015
+Author: David Bastos - davtechh@gmail.com
+Version: 1.0
+Date: June 2015
 */
 
+// bourbon
 @import "bourbon/bourbon";
-
-// Uncoment ligne 14 for activate debug tools
-//@import "base/_debug.scss";
+@import "neat/neat";
 
 /*------------------------------------*\
     == BASE
 \*------------------------------------*/
 
-@import "base/_base.scss";
+@import "base/base";
 
 /*------------------------------------*\
     == MODULES
 \*------------------------------------*/
 
-@import "neat/_neat.scss"; //grid semantico
-
+ //grid @import "neat/neat";
 
 /*------------------------------------*\
     == LAYOUT
 \*------------------------------------*/
 
-// @import "layout/_header";
-// @import "layout/_main";
-// @import "layout/_footer";
+@import "layout/_header";
+@import "layout/_main";
+@import "layout/_footer";
 
 /*------------------------------------*\
     == HELPERS
@@ -46,4 +44,4 @@ Date: January 2015
     == MEDIA QUERIES
 \*------------------------------------*/
 
-// @import "_print";
+@import "_print";
