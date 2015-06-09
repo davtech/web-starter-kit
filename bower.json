@@ -5,6 +5,10 @@
   "authors": [
     "David Bastos <davtechh@gmail.com>"
   ],
+  
   "license": "MIT",
-  "directory":"app/components"
+  
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
 }
